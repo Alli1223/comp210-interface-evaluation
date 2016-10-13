@@ -53,7 +53,9 @@ body {
   line-height: 1.5;
   color: #ffffff;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background-image: url(../images/Elite_Screenshots/20161013171533_1.jpg) ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 a {
@@ -77,20 +79,19 @@ header h1 {
 }
 
 header h2 {
-  font-size: 24px;
-  font-weight: normal;
+  font-size: 40px;
   line-height: 1.3;
-  color: #aaa;
-  letter-spacing: -1px;
+  color: #D96D00;
 }
 
 #container {
-  min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  min-height: 1000px;
+  background: transparent url(../images/highlight-bg1.png) 50% 50% no-repeat;
 }
 
 .inner {
   width: 620px;
+	height: 100%;
   margin: 0 auto;
 }
 
@@ -165,12 +166,7 @@ a.button span {
   margin-right: 0;
 }
 
-#sidebar {
-    position:absolute;
-    top:0; bottom:0; left:0;
-    width:250px;
-    background:#000;
-}
+
 
 code, pre {
   margin-bottom: 30px;
@@ -301,6 +297,64 @@ blockquote {
   margin-bottom: 20px;
   font-size: 1.6em;
   border-left: 10px solid #e9e9e9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D96D00;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: orange;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: orange;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #737373}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
 }
 
 ul li {
