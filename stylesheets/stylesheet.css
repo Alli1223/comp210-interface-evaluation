@@ -86,7 +86,7 @@ header h2 {
 
 #container {
   min-height: 1000px;
-  background: transparent url(../images/highlight-bg1.png) 50% 50% no-repeat;
+  background: transparent url(../images/highlight-bg3.png) 50% 0 no-repeat;
 }
 
 .inner {
@@ -257,9 +257,9 @@ h2 {
 
 h3 {
   margin-bottom: 8px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
-  color: #ffffff;
+  color: orange;
 }
 
 h4 {
@@ -269,8 +269,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1em;
-  color: #ffffff;
+
+  color: orange;
 }
 
 h6 {
@@ -281,7 +281,7 @@ h6 {
 p {
   margin-bottom: 20px;
   font-weight: 300;
-	color: #ffffff;
+	color: #cccccc;
 }
 
 a {
@@ -348,6 +348,29 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* IMAGE GALLERY */
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 2px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*Image Gallery End */
+
 ul {
     list-style-type: none;
     margin: 0;
