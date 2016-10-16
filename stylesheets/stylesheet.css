@@ -84,11 +84,17 @@ header h2 {
   color: #D96D00;
 }
 
+table, th, td {
+    border: 1px solid black;
+}
+
 #container {
   min-height: 1000px;
   background: transparent url(../images/highlight-bg3.png) 50% 0 no-repeat;
 	background-repeat: repeat-y;
 }
+
+
 
 .inner {
   width: 620px;
